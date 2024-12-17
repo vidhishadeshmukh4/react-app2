@@ -1,0 +1,27 @@
+.customers {
+    margin-left: 260px; /* Adjust based on sidebar width */
+    padding: 20px;
+  }
+  
+  .customers h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .customers table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .customers table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .customers th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .customers th {
+    background-color: #f4f4f4;
+  }

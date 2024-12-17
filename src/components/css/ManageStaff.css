@@ -1,0 +1,68 @@
+/* src/ManageStaff.css */
+
+.manage-staff {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.manage-staff h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.manage-staff form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.manage-staff input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.manage-staff button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.manage-staff button:hover {
+    background-color: #0056b3;
+}
+
+.manage-staff table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.manage-staff th, .manage-staff td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.manage-staff th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.manage-staff td {
+    background-color: #fff;
+}
+
+.manage-staff button {
+    margin-right: 5px;
+}

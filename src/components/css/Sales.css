@@ -1,0 +1,27 @@
+.sales {
+    margin-left: 260px; /* Adjust based on sidebar width */
+    padding: 20px;
+  }
+  
+  .sales h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .sales table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .sales table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .sales th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .sales th {
+    background-color: #f4f4f4;
+  }

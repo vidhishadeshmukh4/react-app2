@@ -1,0 +1,17 @@
+/* src/components/ChartContainer.css */
+.chart-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .chart-box {
+    flex: 1;
+    max-width: 45%;
+    margin: 0 10px;
+  }
+  
+  .chart-box canvas {
+    max-width: 100%;
+    height: auto;
+  }

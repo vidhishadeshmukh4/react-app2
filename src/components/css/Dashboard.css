@@ -1,0 +1,37 @@
+/* dashboard.css */
+
+/* Overall container styling */
+.dashboard-container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Navigation styling */
+.navigation-page {
+  margin-bottom: 20px;
+}
+
+/* Header styling */
+.header {
+  background-color: #ffffff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Individual section styling */
+/* .section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+} */
+
+/* Adjust for responsiveness */
+@media (max-width: 768px) {
+  .section {
+      padding: 10px;
+  }
+}

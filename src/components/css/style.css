@@ -1,0 +1,90 @@
+/* src/components/style.css */
+
+
+.shravani{
+    /* background-image: url(''); */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.section-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.table-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; /* Optional: adds space between tables */
+    width: 80%; /* Adjust width as needed */
+}
+
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f7e4f5;
+    text-align: center;
+} */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff; 
+    text-align: center;
+    border-radius: 8px; /* Optional: rounds the corners of the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow around the table */
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 2px solid #f7e4f5;
+    text-align: left;
+}
+
+th {
+    background-color: #eaabf0;
+}
+
+tr:nth-child(even) {
+    background-color: #f8d3f0;
+}
+
+tr:hover {
+    background-color: #f3a2e8;
+}
+
+.low-stock-products table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.low-stock-products th,
+.low-stock-products td {
+    border: 1px solid #f7e4f5 ;
+    padding: 8px;
+    text-align: left;
+}
+
+.low-stock-products th {
+    background-color: #eaabf0;
+}
+
+h1 {
+    color: rgb(8, 8, 8); /* Sets the text color to white */
+}

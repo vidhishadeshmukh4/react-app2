@@ -1,0 +1,22 @@
+.sale-details {
+    padding: 20px;
+  }
+  
+  .sale-details h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sale-details table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .sale-details table th, .sale-details table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .sale-details table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }

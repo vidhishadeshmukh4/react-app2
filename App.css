@@ -1,0 +1,77 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* src/App.css */
+/* src/App.css */
+.table-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-section {
+  flex: 1;
+  margin: 0 10px; /* Adds space between the two sections */
+}
+
+.table-section h1 {
+  text-align: center; /* Centers the header above the table */
+}
+
+.table-section table {
+  width: 100%; /* Ensures the table fills the container */
+  border-collapse: collapse;
+  background-color: #f7e4f5;
+}
+
+.table-section th, .table-section td {
+  padding: 8px 12px;
+  border: 2px solid #111111;
+  text-align: left;
+}
+
+.table-section th {
+  background-color: #eaabf0;
+}
+
+.table-section tr:nth-child(even) {
+  background-color: #f8d3f0;
+}
+
+.table-section tr:hover {
+  background-color: #f3a2e8;
+}

@@ -1,0 +1,20 @@
+/* src/components/Home.css */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    flex: 0 0 200px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }

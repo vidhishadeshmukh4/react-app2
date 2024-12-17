@@ -1,0 +1,17 @@
+/* src/components/StocksChart.css */
+.stocks-chart {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .chart-container {
+    flex: 1 1 20%; /* Adjust the flex-basis to ensure charts are not too large */
+    margin: 10px;
+    min-width: 300px; /* Ensure charts don't get too narrow */
+  }
+  
+  .chart-container h2 {
+    text-align: center;
+  }
+  

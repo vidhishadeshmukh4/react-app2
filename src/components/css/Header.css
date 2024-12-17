@@ -1,0 +1,18 @@
+/* .header {
+    background: linear-gradient(135deg, #f8d5ec, #c6e2ff);
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-bottom: 5px solid #ffb6c1;
+    border-radius: 0 0 20px 20px;
+  } */
+  
+  .header h1 {
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+  }

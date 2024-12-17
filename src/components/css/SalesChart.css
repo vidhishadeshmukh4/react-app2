@@ -1,0 +1,23 @@
+/* src/components/SalesChart.css */
+.sales-chart {
+    display: flex;
+    flex-direction: row; /* Align charts side by side */
+    justify-content: space-between; /* Space out the charts */
+    flex-wrap: wrap; /* Allow wrapping if there's not enough space */
+    padding: 20px; /* Add padding around the charts */
+  }
+  
+  .chart-wrapper {
+    width: 48%; /* Adjust width as needed for spacing */
+    margin: 10px; /* Margin around each chart container */
+  }
+  
+  .chart-wrapper h2 {
+    margin-bottom: 10px; /* Space between the title and the chart */
+    text-align: center; /* Center align the title */
+  }
+  
+  .chart-wrapper canvas {
+    width: 100% !important;
+    height: auto !important;
+  }

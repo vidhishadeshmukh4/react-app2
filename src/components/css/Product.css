@@ -1,0 +1,27 @@
+.products {
+    margin-left: 260px; /* Adjust based on sidebar width */
+    padding: 20px;
+  }
+  
+  .products h2 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .products table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .products table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .products th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .products th {
+    background-color: #f4f4f4;
+  }
